@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-size: medium;
+
 }
 .quiz {
     margin: 0 auto;
@@ -43,4 +45,7 @@ body{
 }
 .answer--valid{
     color: #66c09f;
+}
+.rez{
+    padding-bottom: 20px;
 }

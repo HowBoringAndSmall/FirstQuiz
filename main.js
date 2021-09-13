@@ -91,7 +91,7 @@ const renderQuestions = (index) => {
 
 const renderResults = () => {
 
-    let content = '';
+    let content = `<div class="rez"><font size="14"> Результаты:</font> <br> </div>`;
 
     const getClassname = (answer, questionIndex) => {
         let className = '';
