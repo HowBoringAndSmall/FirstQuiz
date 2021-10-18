@@ -1,51 +1,51 @@
 const DATA = [
     {
-        question: "Почему такой слабенький опросник я заливаю на гитхаб?",
+        question: "1+1",
         answers: [
             {
                 id: '1',
-                value: 'Просто потому, что это первое что-то большое, что я сделал на JS',
+                value: '2',
                 correct: true,
             },
             {
                 id: '2',
-                value: 'Потому что хочу',
+                value: '1',
                 correct: false,
             },
             {
                 id: '3',
-                value: 'Потому что я люблю опросы',
+                value: '1',
                 correct: false,
             },
                 
         ]
     },
     {
-        question: "Почему я не сделал его на специальных сайтах, как делают все те, кому нужны опросы?",
+        question: "2+2",
         answers: [
             {
                 id: '4',
-                value: 'Потому что я не умею',
+                value: '3',
                 correct: false,
             },
             {
                 id: '5',
-                value: 'Потому что я не лох',
+                value: '4',
                 correct: true,
             }, 
         ]
     },
     {
-        question: "Оцени сайт",
+        question: "2+2*2",
         answers: [
             {
                 id: '6',
-                value: 'Слабенький',
+                value: '8',
                 correct: false,
             },
             {
                 id: '7',
-                value: 'Богдан, ты молодец, я обязательно посмотрю, что ты написал на JS и похвалю тебя ещё раз',
+                value: '6',
                 correct: true,
             }, 
         ]
@@ -54,9 +54,6 @@ const DATA = [
 ];
 
 let localResults = {};
-
-
-
 
 const quiz = document.getElementById('quiz');
 const questions = document.getElementById("questions"); 
